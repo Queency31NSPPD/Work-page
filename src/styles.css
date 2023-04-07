@@ -1,0 +1,148 @@
+h1 {
+    font-family: 'Playfair Display',
+        serif;
+    font-weight: bold;
+    color: black;
+    font-size: 96px;
+    line-height: 1.5;
+
+}
+
+h2 {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: medium;
+    font-size: 24px;
+    line-height: 1.5;
+
+
+}
+
+.hero p {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    color: #564d80;
+}
+
+.hero {
+    background: #f3f0f6;
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.btn-primary {
+    background: #6c63ff;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.yogurt-h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.project-description {
+    padding: 120px 60px;
+}
+
+.about-me-page h1 {
+    font-size: 60px;
+    line-height: 80px;
+    font-family: 'Playfair Display',
+        serif;
+}
+
+.about-me-page h2 {
+    font-size: 18px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.about-me-page {
+    padding: 120px 60px;
+    text-align: center;
+    padding: 0;
+}
+
+.about-me-page img {
+    width: 300px;
+}
+
+.about-me-page-content {
+    margin: 30px;
+}
+
+.work-page-content h1 {
+    font-family: 'Playfair Display',
+        serif;
+    font-weight: bold;
+    color: black;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.work-page-content h3 {
+    font-size: 24px;
+    font-family: 'Poppins',
+        sans-serif;
+    line-height: 1.5;
+    margin: 20px 0 0;
+}
+
+.work-page-content p {
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    .yogurt-h2 {
+        font-size: 40px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-me-page {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 900px) {
+
+
+    .work-page-content {
+        text-align: center;
+        padding: 0;
+    }
+
+    .work-page-content h1 {
+        font-size: 20px;
+        line-height: 2;
+    }
+}
